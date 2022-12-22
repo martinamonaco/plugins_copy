@@ -1,0 +1,415 @@
+The system is: Linux - 3.10.0-1062.18.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /apps/mpi/gcc/8.2.0/openmpi/4.0.3/bin/mpicc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /apps/eb/software/GCCcore/8.2.0/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fb67/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fb67.dir/build.make CMakeFiles/cmTC_2fb67.dir/build
+gmake[1]: Entering directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o
+/apps/mpi/gcc/8.2.0/openmpi/4.0.3/bin/mpicc   -v -o CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -c /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -I /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include -D_REENTRANT /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccsuOWvy.s
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include
+ /apps/eb/software/GCCcore/8.2.0/include
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 28c4e7a5d6e686d15f9874a2aaed4071
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ as -v -I /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include --64 -o CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o /tmp/ccsuOWvy.s
+GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1
+COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2fb67
+/apps/cmake/3.21.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fb67.dir/link.txt --verbose=1
+/apps/mpi/gcc/8.2.0/openmpi/4.0.3/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -o cmTC_2fb67 
+Using built-in specs.
+COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/gcc
+COLLECT_LTO_WRAPPER=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2fb67' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-L/opt/pmix/3.1.2/lib64' '-L/opt/slurm/lib64' '-L/usr/lib64' '-L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64' '-mtune=generic' '-march=x86-64'
+ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN52EeD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2fb67 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/opt/pmix/3.1.2/lib64 -L/opt/slurm/lib64 -L/usr/lib64 -L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -rpath /opt/pmix/3.1.2/lib64 -rpath /opt/slurm/lib64 -rpath /usr/lib64 -rpath /apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64 --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2fb67' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-L/opt/pmix/3.1.2/lib64' '-L/opt/slurm/lib64' '-L/usr/lib64' '-L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+    add: [/apps/eb/software/GCCcore/8.2.0/include]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include] ==> [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/include] ==> [/apps/eb/software/GCCcore/8.2.0/include]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include;/apps/eb/software/GCCcore/8.2.0/include;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fb67/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fb67.dir/build.make CMakeFiles/cmTC_2fb67.dir/build]
+  ignore line: [gmake[1]: Entering directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/bin/mpicc   -v -o CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -c /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -I /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include -D_REENTRANT /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccsuOWvy.s]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/include]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 28c4e7a5d6e686d15f9874a2aaed4071]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /apps/mpi/gcc/8.2.0/openmpi/4.0.3/include --64 -o CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o /tmp/ccsuOWvy.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1]
+  ignore line: [COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_2fb67]
+  ignore line: [/apps/cmake/3.21.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fb67.dir/link.txt --verbose=1]
+  ignore line: [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -o cmTC_2fb67 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2fb67' '-I' '/apps/mpi/gcc/8.2.0/openmpi/4.0.3/include' '-pthread' '-L/opt/pmix/3.1.2/lib64' '-L/opt/slurm/lib64' '-L/usr/lib64' '-L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64' '-mtune=generic' '-march=x86-64']
+  link line: [ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN52EeD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2fb67 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/opt/pmix/3.1.2/lib64 -L/opt/slurm/lib64 -L/usr/lib64 -L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o -rpath /opt/pmix/3.1.2/lib64 -rpath /opt/slurm/lib64 -rpath /usr/lib64 -rpath /apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64 --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN52EeD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2fb67] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> obj [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o]
+    arg [-L/opt/pmix/3.1.2/lib64] ==> dir [/opt/pmix/3.1.2/lib64]
+    arg [-L/opt/slurm/lib64] ==> dir [/opt/slurm/lib64]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64] ==> dir [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_2fb67.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/pmix/3.1.2/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/slurm/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/usr/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> obj [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/opt/pmix/3.1.2/lib64] ==> [/opt/pmix/3.1.2/lib64]
+  collapse library dir [/opt/slurm/lib64] ==> [/opt/slurm/lib64]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64] ==> [/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/apps/eb/software/GCCcore/8.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/apps/eb/software/GCCcore/8.2.0/lib]
+  implicit libs: [mpi;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/opt/pmix/3.1.2/lib64;/opt/slurm/lib64;/usr/lib64;/apps/mpi/gcc/8.2.0/openmpi/4.0.3/lib64;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/apps/eb/software/GCCcore/8.2.0/lib64;/lib64;/apps/eb/software/GCCcore/8.2.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccf93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccf93.dir/build.make CMakeFiles/cmTC_ccf93.dir/build
+gmake[1]: Entering directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o
+/apps/eb/software/GCCcore/8.2.0/bin/c++   -v -o CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -c /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -D_GNU_SOURCE /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczpnDJN.s
+GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include
+ /apps/eb/software/GCCcore/8.2.0/include
+ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8b753d672cf94605547a4ff28abaa8d5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczpnDJN.s
+GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1
+COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_ccf93
+/apps/cmake/3.21.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf93.dir/link.txt --verbose=1
+/apps/eb/software/GCCcore/8.2.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccf93 
+Using built-in specs.
+COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/c++
+COLLECT_LTO_WRAPPER=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ccf93' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPtkh9S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ccf93 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ccf93' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+    add: [/apps/eb/software/GCCcore/8.2.0/include]
+    add: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0] ==> [/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu] ==> [/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward] ==> [/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0/backward]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/include] ==> [/apps/eb/software/GCCcore/8.2.0/include]
+  collapse include dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0;/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0/x86_64-pc-linux-gnu;/apps/eb/software/GCCcore/8.2.0/include/c++/8.2.0/backward;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include;/apps/eb/software/GCCcore/8.2.0/include;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccf93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccf93.dir/build.make CMakeFiles/cmTC_ccf93.dir/build]
+  ignore line: [gmake[1]: Entering directory `/blue/juliane.dannberg/martinamonaco/plume-heterogeneity/plugins/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/apps/eb/software/GCCcore/8.2.0/bin/c++   -v -o CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -c /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1plus -quiet -v -D_GNU_SOURCE /apps/cmake/3.21.3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczpnDJN.s]
+  ignore line: [GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/include]
+  ignore line: [ /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8b753d672cf94605547a4ff28abaa8d5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczpnDJN.s]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.31.1]
+  ignore line: [COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_ccf93]
+  ignore line: [/apps/cmake/3.21.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf93.dir/link.txt --verbose=1]
+  ignore line: [/apps/eb/software/GCCcore/8.2.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ccf93 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/eb/software/GCCcore/8.2.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/apps/eb/software/GCCcore/8.2.0 --with-local-prefix=/apps/eb/software/GCCcore/8.2.0 --enable-bootstrap --with-isl=/apps/eb/build/GCCcore/8.2.0/dummy-/gcc-8.2.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ccf93' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPtkh9S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ccf93 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/eb/software/GCCcore/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPtkh9S.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ccf93] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> obj [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_ccf93.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> obj [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/apps/eb/software/GCCcore/8.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/apps/eb/software/GCCcore/8.2.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o;/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/apps/eb/software/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/apps/eb/software/GCCcore/8.2.0/lib64;/lib64;/usr/lib64;/apps/eb/software/GCCcore/8.2.0/lib]
+  implicit fwks: []
+
+
