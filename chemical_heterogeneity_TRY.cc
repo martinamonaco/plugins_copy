@@ -181,15 +181,14 @@ namespace aspect
       std::srand(1);
       Point<dim> blob_center;
       double blob_radius;
-      int composition_function (double x, z)
-      {
-        DeltaC=0.05;
-        r=150e3;
-        background_value = 0.18;
-        if (background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
+      double blob_present;
+      //int composition_function (double x, z)
+      double DeltaC=0.05;
+      double r=150e3;
+      double background_value = 0.18;
+      if (background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
                               1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)))
-        double blob_present = 0;
-      }
+      blob_present = 0;
       const Point<dim> extents = geometry->get_extents();
 
       for (unsigned int n=0; n<n_blobs; ++n)
