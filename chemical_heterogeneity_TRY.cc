@@ -188,7 +188,7 @@ namespace aspect
       double background_value = 0.18;
       if (background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
                               1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)))
-      blob_present = 0;
+      blob_present = 1.0;
       const Point<dim> extents = geometry->get_extents();
 
       for (unsigned int n=0; n<n_blobs; ++n)
@@ -202,7 +202,7 @@ namespace aspect
           blob_radius = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius);
 
           if (position.distance(blob_center) < blob_radius)
-        	blob_present = 1.0;
+        	blob_present = 2.0;
         }
 
       return blob_present;
