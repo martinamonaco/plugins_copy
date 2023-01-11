@@ -186,11 +186,10 @@ namespace aspect
         DeltaC=0.05;
         r=150e3;
         background_value = 0.18;
-        background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
-                              1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r))
-        return x,z;
+        if (background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
+                              1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)))
+        double blob_present = 0;
       }
-      //double blob_present = 0;
       const Point<dim> extents = geometry->get_extents();
 
       for (unsigned int n=0; n<n_blobs; ++n)
