@@ -195,7 +195,6 @@ namespace aspect
 
           blob_radius = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius);
           if (position.distance(blob_center) < blob_radius)
-          blob_composition = 1.0;
         	blob_present = 1.0;
         }
 
