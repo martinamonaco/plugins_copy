@@ -181,7 +181,7 @@ namespace aspect
       std::srand(1);
       Point<dim> blob_center;
       double blob_radius;
-      double blob_present = 0;
+      double blob_present = 0.18;
       //double background_value = 0.18;
       const Point<dim> extents = geometry->get_extents();
 
