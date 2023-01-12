@@ -185,7 +185,7 @@ namespace aspect
       double blob_present = 0;
       //function parameters
       double DeltaC=0.05;
-      double r=150e3;
+      //double //r=150e3;
       double background_value = 0.18;
       //
       const Point<dim> extents = geometry->get_extents();
@@ -199,8 +199,8 @@ namespace aspect
     	  } while(!geometry->point_is_in_domain(blob_center) || function->value(blob_center,n_comp) == 0.0);
 
           blob_radius = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius);
-          blob_composition =(background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)); \
-                              1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(r*r)));
+          blob_composition =(background_value + DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(blob_radius*blob_radius)); \
+                              1 - background_value - DeltaC * exp(-((z*z)+(x-1000e3)*(x-1000e3))/(blob_radius*blob_radius)));
           if (position.distance(blob_center) < blob_radius)
         	blob_present = 1.0;
         }
