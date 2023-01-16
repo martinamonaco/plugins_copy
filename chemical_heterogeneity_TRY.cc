@@ -182,7 +182,6 @@ namespace aspect
       Point<dim> blob_center;
       double blob_radius;
       double blob_present = 0.18;
-      //double background_value = 0.18;
       const Point<dim> extents = geometry->get_extents();
 
       for (unsigned int n=0; n<n_blobs; ++n)
@@ -415,13 +414,13 @@ namespace aspect
   {
     ASPECT_REGISTER_INITIAL_COMPOSITION_MODEL(ChemicalHeterogeneity,
                                               "chemical heterogeneity",
-                                              ".")
+                                              "function")
   }
 
   namespace BoundaryComposition
   {
   ASPECT_REGISTER_BOUNDARY_COMPOSITION_MODEL(ChemicalHeterogeneity,
                                              "chemical heterogeneity",
-                                             ".")
+                                             "function")
   }
 }
