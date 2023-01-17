@@ -414,13 +414,13 @@ namespace aspect
   {
     ASPECT_REGISTER_INITIAL_COMPOSITION_MODEL(ChemicalHeterogeneity,
                                               "chemical heterogeneity",
-                                              "function")
+                                              ".")
   }
 
   namespace BoundaryComposition
   {
   ASPECT_REGISTER_BOUNDARY_COMPOSITION_MODEL(ChemicalHeterogeneity,
                                              "chemical heterogeneity",
-                                             "function")
+                                             ".")
   }
 }
