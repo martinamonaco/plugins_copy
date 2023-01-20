@@ -189,10 +189,17 @@ namespace aspect
     	  do
     	  {
             for (unsigned int d=0; d<dim; ++d)
-              blob_center[d] = (double)(std::rand() % int(extents[d]));
+              blob_center[d] = (double)(std::rand() % int(150e3));//rand() gives a random int. Type conversion is necessary bc we want to store the variable as a double
+              
+              //29%400,000 X COORD; 57%600,000 Y COORD IN TWO DIFFERENT SEPARATE LOOPS. Takes me 2 loops to understand where the blob will be
+              //extents needs to become the plume area. also wouldn't work like this bc blobs would be to the left bottom of the box.
+              //needs: height = 1000 km (BUT IN METERS).
+
+              //we want the x coordinate of the plume. aka the radius r.
+              //[d] still accesses a vector --> crash. 
     	  } while(!geometry->point_is_in_domain(blob_center) || function->value(blob_center,n_comp) == 0.0);
 
-          blob_radius = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius);
+          blob_radius = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius); //changes the radius of the blobs. leave it.
           if (position.distance(blob_center) < blob_radius)
         	blob_present = 1.0;
         }
@@ -313,7 +320,7 @@ namespace aspect
 
     template <int dim>
     void
-	ChemicalHeterogeneity<dim>::initialize ()
+	ChemicalHeterogeneity<dim>::initialize () //here i initialize the location of each blob
     {
       // this boundary condition only makes sense if the geometry is a
       // Box. verify that it is indeed
@@ -331,12 +338,22 @@ namespace aspect
       // use a fixed number as seed for random generator
       // this is important if we run the code on more than 1 processor
       std::srand(1);
-      const Point<dim> extents = geometry->get_extents();
+      const Point<dim> extents = geometry->get_extents(); //look it up on ASPECT. gives the extents of the model box and returns a point w/1 entry per coordinate dir and gives the size of the model box (length,height)
 
       for (unsigned int n=0; n<n_blobs; ++n)
         {
-          blob_centers[n](0) = (double)(std::rand() % int(extents[0]));
-          blob_centers[n](1) = (double)(std::rand() % int(average_velocity * end_time));
+          blob_centers[n](0) = (double)(std::rand() % int(150e3)); //x coordinate: the computing is done differently.
+
+          //srand() initializes the initial random generator. 1 is the seed = aka a number that is used to initialize univocally the random count for a model
+          //blob_centers is the vector (xcoord,ycoord). Here, we're talking a vector for each blob: it's an array of points. [] -->
+          //access outer variable (= which blob is it?); (0) and (1) are the x and y coordinates of the blob we're analyzing.
+
+          //extents[0] --> gives me a number between 0 and the width of the box. only works to access elements of a vector.
+
+          blob_centers[n](1) = (double)(std::rand() % int(average_velocity * end_time)); //y coordinate. but i want blobs for 1000 km. 
+          //DO NOT CHANGE THIS BECAUSE IT'S ALREADY USING THE EXTENT OF THE MODEL ---- OKOKOKOK-------
+          //VELOCITY*END_TIME: we assume there's constant inflow from the bottom. And we can compute the amount of movement by that *
+          //height = whole column of the plume (it was true for the box).
           blob_radii[n] = minimum_blob_radius + std::rand() % int(maximum_blob_radius - minimum_blob_radius);
         }
 
