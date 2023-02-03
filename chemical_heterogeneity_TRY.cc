@@ -342,13 +342,19 @@ namespace aspect
 
       for (unsigned int n=0; n<n_blobs; ++n)
         {
-          blob_centers[n](0) = (double)(std::rand() % int(150e3)); //x coordinate: the computing is done differently.
+          blob_centers[n](0) = (double)(std::rand() % int(150e3)) + 100e4;
+          
+           //x coordinate: the computing is done differently.
 
           //srand() initializes the initial random generator. 1 is the seed = aka a number that is used to initialize univocally the random count for a model
           //blob_centers is the vector (xcoord,ycoord). Here, we're talking a vector for each blob: it's an array of points. [] -->
           //access outer variable (= which blob is it?); (0) and (1) are the x and y coordinates of the blob we're analyzing.
 
           //extents[0] --> gives me a number between 0 and the width of the box. only works to access elements of a vector.
+
+          //HERE TO BE ADDED A LINE OF CODE THAT ADDS 150E3 + WHERE I WANT THE BLOBS TO BE ALONG X
+          //blob_centers[n](0) = blob_centers[n](0) + 100e4; COMMENTED OUT FOR BREVITY
+
 
           blob_centers[n](1) = (double)(std::rand() % int(average_velocity * end_time)); //y coordinate. but i want blobs for 1000 km. 
           //DO NOT CHANGE THIS BECAUSE IT'S ALREADY USING THE EXTENT OF THE MODEL ---- OKOKOKOK-------
