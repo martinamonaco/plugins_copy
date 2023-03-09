@@ -189,7 +189,7 @@ namespace aspect
     	  do
     	  {
             for (unsigned int d=0; d<dim; ++d)
-              blob_center[d] = (double)(std::rand() % int(150e3)+800e3);//rand() gives a random int. Type conversion is necessary bc we want to store the variable as a double
+              blob_center[d] = (double)(std::rand() % int(150e3));//rand() gives a random int. Type conversion is necessary bc we want to store the variable as a double
               
               //29%400,000 X COORD; 57%600,000 Y COORD IN TWO DIFFERENT SEPARATE LOOPS. Takes me 2 loops to understand where the blob will be
               //extents needs to become the plume area. also wouldn't work like this bc blobs would be to the left bottom of the box.
@@ -342,7 +342,7 @@ namespace aspect
 
       for (unsigned int n=0; n<n_blobs; ++n)
         {
-          blob_centers[n](0) = (double)(std::rand() % int(150e3)) + 100e4;
+          blob_centers[n](0) = (double)(std::rand() % int(150e3)) + 800e3;
           
            //x coordinate: the computing is done differently.
 
